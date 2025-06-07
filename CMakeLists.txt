@@ -2,9 +2,9 @@
 #  Copyright (C) 2023-2024 MCAP_BUILDER Contributors
 # =================================================================================================
 
-cmake_minimum_required(VERSION 3.22.1)
+cmake_minimum_required(VERSION 3.16)
 
-set(VERSION "1.4.0")
+set(VERSION "2.0.2")
 
 project(mcap_builder LANGUAGES CXX VERSION ${VERSION})
 
