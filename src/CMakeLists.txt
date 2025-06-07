@@ -3,7 +3,6 @@ add_library(mcap lib.cpp)
 target_include_directories(mcap PUBLIC
   $<BUILD_INTERFACE:${MCAP_INCLUDE_DIR}>
   $<INSTALL_INTERFACE:include/>
-  INTERFACE ${MCAP_INCLUDE_DIR}
 )
 
 set(DEPENDENCIES "")
